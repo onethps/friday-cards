@@ -28,6 +28,7 @@ const ProjectRoutes = () => {
                 <Route path={PATH.RESET_PASSWORD}  element={ <RestorePassword/> }/>
                 <Route path={PATH.NEW_PASSWORD}  element={ <NewPassword/> }/>
                 <Route path={PATH.TEST}  element={ <Test/> }/>
+                <Route path={'*'}  element={ <Test/> }/>
 
                 {/*404 PAGE*/}
                 <Route path="404"  element={ <Error404/> }/>
