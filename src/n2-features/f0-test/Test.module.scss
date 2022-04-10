@@ -1,0 +1,17 @@
+.rootBlock {
+  display: flex;
+  flex-direction: column;
+  margin:  0 auto;
+  width: 20%;
+
+  .SuperButton {
+    width: 200px;
+    margin: 10px auto;
+  }
+
+  .SuperCheckBox{
+    margin: 50px auto;
+  }
+
+
+}
